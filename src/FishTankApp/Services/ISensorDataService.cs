@@ -5,6 +5,7 @@ namespace FishTankApp.Services
 {
     public interface ISensorDataService
     {
+        IntHistoryModel GetWaterTemperatureFahrenheit();
         IEnumerable<IntHistoryModel> GetWaterTemperatureFahrenheitHistory();
         IntHistoryModel GetFishMotionPercentage();
         IEnumerable<IntHistoryModel> GetFishMotionPercentageHistory();
