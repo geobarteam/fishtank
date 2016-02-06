@@ -15,7 +15,5 @@ namespace FishTankApp.ViewModels
 
         public SensorTileViewModel LightIntensityTile { get; set; }
 
-       
-
     }
 }
